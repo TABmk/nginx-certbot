@@ -1,3 +1,5 @@
+> 🔮 Updated with fixed docker compose command, return 200 on / http location and init script will auto-replace domain in config 🔮
+
 # Boilerplate for nginx with Let’s Encrypt on docker-compose
 
 > This repository is accompanied by a [step-by-step guide on how to
@@ -12,11 +14,10 @@ application.
 ## Installation
 1. [Install docker-compose](https://docs.docker.com/compose/install/#install-compose).
 
-2. Clone this repository: `git clone https://github.com/wmnnd/nginx-certbot.git .`
+2. Clone this repository: `git clone https://github.com/TABmk/nginx-certbot.git .`
 
 3. Modify configuration:
-- Add domains and email addresses to init-letsencrypt.sh
-- Replace all occurrences of example.org with primary domain (the first one you added to init-letsencrypt.sh) in data/nginx/app.conf
+- Add domain (only one ATM) and email addresses to `init-letsencrypt.sh`
 
 4. Run the init script:
 

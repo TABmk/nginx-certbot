@@ -1,4 +1,10 @@
-> 🔮 Updated with fixed docker compose command, return 200 on / http location and init script will auto-replace domain in config 🔮
+> 🔮 My updates:
+> - nginx changed to openresty:alpine (latest)
+> - fixed docker compose command
+> - https / now returns 'ok!'
+> - init script replace domain names in app.conf
+
+> set domain in `init-letsencrypt.sh` and run it. That's all. 🎉
 
 # Boilerplate for nginx with Let’s Encrypt on docker-compose
 
